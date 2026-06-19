@@ -331,6 +331,28 @@ div {
 }
 
 </style>
+	<style>
+
+/* White text for all gradient blue cards */
+[class*="framer-"][style*="linear-gradient"] *,
+[class*="framer-"][style*="radial-gradient"] * {
+    color: #ffffff !important;
+}
+
+/* About section cards */
+#about * {
+    color: #ffffff !important;
+}
+
+/* Keep normal sections dark */
+#education *,
+#projects *,
+#leadership *,
+#contact * {
+    color: inherit;
+}
+
+</style>
 
 </head>
 <body>
